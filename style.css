@@ -5,6 +5,7 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: 'Roboto Mono', sans-serif;
+  background-color: #7229f0;
 }
 
       .blink {
@@ -32,12 +33,19 @@ html, body {
 
 }
 
+.tap1:hover {
+	color: #fce50f;
+	transition: color 0.3s ease-in-out;
+	
+	
+}
+
 #card{
   visibility: visible;
 }
 
 #data{
-  margin-top: -30%;
+  margin-top: -33%;
   text-align:center;
   visibility: hidden;
 }
@@ -70,4 +78,40 @@ padding: 4rem;
 #tap{
   margin-top: -50%;
   visibility: hidden;
+}
+
+.threeboxes{ 
+	justify-content: center;
+	margin-top: 1px;
+	padding-top: 1px;
+	
+}
+
+
+.threeboxes > button {
+	
+	padding-top: 1px; 
+	
+	
+}
+
+
+
+
+
+@media all and (max-width: 500px) {
+	
+	.threeboxes > button {
+	
+	display: block; 
+	align: center;
+	}
+	
+	
+	.blink {
+		
+		font-size: 20px;
+		
+	}
+	
 }
