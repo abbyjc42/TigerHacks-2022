@@ -121,10 +121,10 @@ padding: 4rem;
 
 @-webkit-keyframes glow {
   to {
-    border-color: #e4ece5;
-    -webkit-box-shadow: 0 0 10px #e4ece5;
-    -moz-box-shadow: 0 0 10px #e4ece5;
-    box-shadow: 0 0 10px #e4ece5;
+    border-color: #b7e2ff;
+    -webkit-box-shadow: 0 0 20px #284cec;
+    -moz-box-shadow: 0 0 20px #284cec;
+    box-shadow: 0 0 20px #284cec;
   }
 }
 
