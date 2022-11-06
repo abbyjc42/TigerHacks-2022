@@ -5,7 +5,7 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: 'Roboto Mono', sans-serif;
-  background-color: #7229f0;
+  background-color: #818f8b;
 }
 
       .blink {
@@ -51,7 +51,7 @@ html, body {
 }
 
 .block{
-  background: #A4AEA5;
+  background: #e4ece5;
   margin-left: 25%; 
   margin-right: 25%; 
   padding: 1rem;
@@ -114,4 +114,25 @@ padding: 4rem;
 		
 	}
 	
+}
+
+/* Reference for glowing border animation:
+ https://stackoverflow.com/questions/15008931/animated-glowing-border-using-css-js */
+
+@-webkit-keyframes glow {
+  to {
+    border-color: #e4ece5;
+    -webkit-box-shadow: 0 0 10px #e4ece5;
+    -moz-box-shadow: 0 0 10px #e4ece5;
+    box-shadow: 0 0 10px #e4ece5;
+  }
+}
+
+.glower {
+  background-color: #ccc;
+  border: 1px solid transparent;
+  -webkit-animation: glow 1.0s infinite alternate;
+  -webkit-transition: border 1.0s linear, box-shadow 1.0s linear;
+  -moz-transition: border 1.0s linear, box-shadow 1.0s linear;
+  transition: border 1.0s linear, box-shadow 1.0s linear;
 }
