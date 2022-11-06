@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto Mono', sans-serif;
+}
+
+      .blink {
+        animation: blink-animation 1s steps(5, start) infinite;
+        -webkit-animation: blink-animation 1s steps(5, start) infinite;
+
+      }
+      @keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
+      @-webkit-keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
+
+.tap1 {
+  color: white;
+  background: #289B32;
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 3rem;
+  border: none; 
+
+}
+
+#card{
+  visibility: visible;
+}
+
+#data{
+  margin-top: -30%;
+  text-align:center;
+  visibility: hidden;
+}
+
+.block{
+  background: #A4AEA5;
+  margin-left: 25%; 
+  margin-right: 25%; 
+  padding: 1rem;
+}
+
+
+
+#data > div > button{
+  margin: 3rem;
+padding: 4rem;
+  font-size: 1.5rem;
+}
+
+#omny{
+  margin-top: -25%;
+  visibility: hidden;
+}
+
+#microchip{
+  margin-top: 0%;
+  visibility: hidden; 
+}
+
+#tap{
+  margin-top: -50%;
+  visibility: hidden;
+}

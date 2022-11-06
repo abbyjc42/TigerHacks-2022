@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" type="image/x-icon" href="7.svg">
+  <title> OMNY</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="n.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+  <div id="card" style="text-align: center;">
+<!--     <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/MetroCard.SVG/1200px-MetroCard.SVG.png"
+      height="250rem"> -->
+    <div class="swipe-animation">
+  <div class="credit-card">
+  </div>
+  <div class="swiper-top"></div>
+  <div class="swiper-bottom">
+    <div class="light-indicator"></div>
+  </div>
+</div>
+    <h1 class="blink" style="color: #D72E26;"> CARD NOT READ. PLEASE TAP OMNY.</h1>
+    <div class="buttons">
+      <button class="tap1" onclick="data_priv()"> TAP OMNY </button>
+    </div>
+  </div>
+
+  <div id="data">
+    <!--     <h1 class = "blink"> DO YOU AGREE TO THESE TERMS?</h1> -->
+  <img src = "OmniTapHere.jpg"/>
+    <br />
+    <br />
+    <div class="block">
+      <h1> METRO CARDS ARE NO LONGER ACCEPTED </h1>
+      <p> The OMNY system was rolled out in 2019. In 2024, the OMNY system will completely replace the Metro Card
+        system. </p>
+      <p> OMNY currently has 3 options: Tap to Pay, Microchip Cards, or an OMNY card.</p>
+    </div>
+    <div style = "display: flex; justify-content: center;"> 
+    <button class = "tap1" onclick = "tap()" class = "flex"> TAP TO PAY</button>
+    <button class = "tap1" onclick = "microchip()" class = "flex"> MICROCHIP CARDS</button>
+    <button class = "tap1" onclick = "omny()" class = "flex"> OMNY CARD</button>
+    </div>
+  </div>
+<br> 
+
+
+  <div id = "tap">
+      <div class="block">
+      <h1> TAP TO PAY </h1>
+      <p> Tap to Pay options like Apple and Google Pay on Smartphones and Smartwatches can be used at the turnstiles. Just use the tap to pay like you would normally at a kiosk until the green check appears.  </p>
+    </div>
+  </div>
+
+  <div id = "microchip">
+      <div class="block">
+      <h1> MICROCHIP CARDS </h1>
+      <p> Micro Chip Credit or Debit Cards, like ones issued through Visa, Mastercard, AMEX, Discover, JCB, and UnionPay can be used at OMNY turnstiles. Just tap the card against the Turnstile until the Green check appers. </p>
+    </div>
+  </div>
+
+  <div id = "omny">
+      <div class="block">
+      <h1> PHYSICAL OMNY CARDS CAN BE PURCHASED AT RETAILERS </h1>
+      <p> Physical OMNY Cards are available for purchase at these <a href = "https://omny.info/retail-locations" target = "_blank">locations</a>. Cards are $5 before fares and can be reloaded at these retailers or online if the OMNY Card is registered. To use at the turnstiles, just tap the card until the green check appears.</p>
+  
+    </div>
+  </div>
+  
+
+<!--   
+    <div class="block">
+      <h1> TAP TO PAY</h1>
+    </div> -->
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
